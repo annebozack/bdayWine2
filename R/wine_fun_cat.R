@@ -7,8 +7,7 @@
 #' @keywords wine
 #; @keywords cats
 #' @export
-#' @examples wine_fun(type='exponential', growth='5')
-#' wine_fun_cat()
+#' @examples wine_fun_cat (type='exponential', growth='5', cat=T)
 
 wine_fun_cat = function(type='linear', growth=1, cat=TRUE){
 	funLinear = function(x){
