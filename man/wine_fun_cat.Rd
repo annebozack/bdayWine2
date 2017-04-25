@@ -17,7 +17,6 @@ wine_fun_cat(type = "linear", growth = 1, cat = TRUE)
 This function generates a plot with linear or exponential growth, with the option of a cat backgroud. The cats package must be installed from https://github.com/hilaryparker/cats (install_github('cats','hilaryparker')) as well as the httr package.
 }
 \examples{
-wine_fun(type='exponential', growth='5')
-wine_fun_cat()
+wine_fun_cat (type='exponential', growth='5', cat=T)
 }
 \keyword{wine}
